@@ -26,6 +26,8 @@ body {
 	border: 0;
 	color: white;
 	background-color: #5e60ce;
+	background-color: rgba(105, 48, 195, 1);
+	/* background-color: #6930c3; */
 }
 
 h1 {
@@ -36,17 +38,34 @@ h2 {
 	font-size: 7rem;
 }
 
+.btn-reserve {
+	background-color: orange;
+}
+
 /* HEADER SECTION */
 
 .navbar {
-	background-color: #5e60ce;
+	/* background-color: #5e60ce; */
+	background-color: rgba(105, 48, 195, 1);
+	/* background-color: rgba(105, 48, 195, 1); */
 }
 
 /* HERO SECTION */
 
 #hero {
 	text-align: center;
-	padding: 3rem 0rem 3rem 0rem;
+	padding: 3rem 0rem 80vh 0rem;
+	background-size: cover;
+	background-color: transparent;
+	background-image: linear-gradient(
+			rgba(105, 48, 195, 0.5),
+			rgba(105, 48, 195, 1)
+		),
+		url("assets/2020-crowd.jpg");
+}
+
+.hero-text {
+	padding-top: 10rem;
 }
 
 /* ABOUT SECTION */
