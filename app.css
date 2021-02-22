@@ -24,19 +24,16 @@ body {
 	font-family: "Raleway", sans-serif;
 	margin: 0;
 	border: 0;
-	/* color: white; */
-	/* background-color: #5e60ce;
-	background-color: rgba(105, 48, 195, 1);
-	background-color: rgba(45, 0, 100, 1); */
-	/* background-color: #6930c3; */
 }
 
 h1 {
 	font-size: 3rem;
+	color: darkblue;
 }
 
 h2 {
 	font-size: 7rem;
+	color: #ff6700;
 }
 
 h3 {
@@ -44,16 +41,13 @@ h3 {
 }
 
 .btn-reserve {
-	background-color: darkorange;
+	background-color: #ff6700;
 }
 
 /* HEADER SECTION */
 
 .navbar {
-	/* background-color: #5e60ce; */
-	/* background-color: rgba(45, 0, 100, 1); */
-	/* background-color: rgba(105, 48, 195, 1); */
-	/* background-color: #77bae4; */
+	transition: all 0.4s;
 }
 
 /* HERO SECTION */
@@ -61,21 +55,16 @@ h3 {
 #hero {
 	text-align: center;
 	padding: 0rem 0rem 20vh 0rem;
-	background-size: cover;
-	/* background-color: transparent; */
+	height: 100vh;
 	background-image: linear-gradient(
-			rgba(200, 200, 200, 0.5),
-			rgba(200, 200, 200, 0.7)
+			rgba(200, 200, 200, 0.9),
+			rgba(200, 200, 200, 0.8)
 		),
 		url("assets/pikes-peak-background.jpg");
-	/* background-color: rgba(251, 100, 97, 0.8); */
-	/* background-image: url("assets/pikes-peak-background.jpg"); */
-	/* background-color: rgba(0, 0, 0, 0.25); */
 }
 
 .hero-text {
 	padding-top: 10rem;
-	color: darkblue;
 }
 
 .hero-text h3 {
