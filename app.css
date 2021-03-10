@@ -5,6 +5,7 @@
 @media (min-width: 250px) {
 	.nav-item {
 		font-size: 1.15rem;
+		/* font-weight: 700; */
 	}
 	h1 {
 		font-size: 1.5rem;
@@ -52,18 +53,38 @@ body {
 
 h1 {
 	color: darkblue;
+	font-weight: 700;
 }
 
 h2 {
 	color: #ff6700;
+	font-weight: 700;
 }
 
 h3 {
 	color: darkblue;
+	font-weight: 700;
 }
 
 .btn-reserve {
 	background-color: #ff6700;
+	font-weight: 700;
+}
+
+.btn-reserve a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.btn-reserve a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-reserve:hover {
+	background-color: darkblue;
+	color: white;
+	font-weight: 700;
 }
 
 /* HEADER SECTION */
